@@ -1,0 +1,28 @@
+deployment_mode: 'unity-va-ut-ff2102'
+https_sign_category: 'standard'
+docker_registry: "17.16.19.233:5000"
+yum_repository: "http://17.16.19.233:6000/yum"
+flannel_interface: "eth100"
+flannel_backend_type: "host-gw"
+is_home_dev: false
+enable_root_ssh: true
+
+#engine_image_process_service:
+#  - name: default
+#    enabled: true
+#    p4_face_replicas: 5
+#    t4_face_replicas: 0
+#
+#engine_timespace_face_feature_db:
+#  - name: default
+#    enabled: true
+#    p4_workers: 2
+#    t4_workers: 0
+#
+#engine_alert_feature_db:
+#  - name: default
+#    enabled: true
+#    p4_worker_sets: 1
+#    p4_worker_replicas: 1
+#    t4_worker_sets: 0
+#    t4_worker_replicas: 0
